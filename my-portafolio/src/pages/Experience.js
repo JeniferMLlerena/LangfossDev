@@ -46,7 +46,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2013"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#eb3d97", color: "#fff" }}
           icon={<SlBriefcase />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -61,7 +61,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2017 - 2019"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#eb3d97", color: "#fff" }}
           icon={<SlBriefcase />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -79,7 +79,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2017 - 2019"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#eb3d97", color: "#fff" }}
           icon={<SlBriefcase />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -97,7 +97,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2020 - present"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#eb3d97", color: "#fff" }}
           icon={<SlBriefcase />}
         >
           <h3 className="vertical-timeline-element-title">

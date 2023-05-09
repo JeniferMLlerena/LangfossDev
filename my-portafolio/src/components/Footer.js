@@ -9,10 +9,10 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <SlSocialInstagram />
-        <SlSocialTwitter />
-        <SlSocialFacebook />
-        <SlSocialLinkedin />
+        <SlSocialInstagram size={35} /> { " " }
+        <SlSocialTwitter size={35} /> { " " }
+        <SlSocialFacebook size={35} /> { " " }
+        <SlSocialLinkedin size={35} />
       </div>
       <p> &copy; 2023 jenwebsolutions.com</p>
     </div>

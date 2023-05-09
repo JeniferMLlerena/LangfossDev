@@ -8,13 +8,16 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Jenifer</h2>
+        <h1> Hello, World!_</h1>
+        <h2> My Name is Jenifer</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          <SlSocialLinkedin />
-          <SlEnvolope />
-          <SlSocialGithub />
+          <SlSocialLinkedin /> { " " }
+          <SlEnvolope /> { " " }
+          <SlSocialGithub /> 
         </div>
+        <br />
+        <br />
       </div>
       <div className="skills">
         <h1> Skills</h1>
