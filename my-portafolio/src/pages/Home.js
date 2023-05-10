@@ -24,17 +24,20 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <div class="frontend">
-              <div><img src={require("../assets/html-5.png")} alt="html-5"/></div>
-              <div><img src={require("../assets/css3.png")} alt="css3"/></div>
-              <div><img src={require("../assets/sass.png")} alt="sass"/></div>
-              <div><img src={require("../assets/javascript.png")} alt="javascript"/></div>
-              <div><img src={require("../assets/typescript.png")} alt="typescript"/></div>
-              <div><img src={require("../assets/jquery.png")} alt="jquery"/></div>
-              <div><img src={require("../assets/rest-api.png")} alt="rest-api"/></div>
-              <div><img src={require("../assets/git.png")} alt="git"/></div>
-              <div><img src={require("../assets/github.png")} alt="github"/></div>
-              <div><img src={require("../assets/react-native.png")} alt="react-native"/></div>
-              <div><img src={require("../assets/angularjs.png")} alt="angularjs"/></div>
+              <div class="skillIcon"><img src={require("../assets/html-5.png")} alt="html-5"/><div>HTML</div></div>
+              <div class="skillIcon"><img src={require("../assets/css3.png")} alt="css3"/><div>CSS3</div></div>
+              <div class="skillIcon"><img src={require("../assets/sass.png")} alt="sass"/><div>SASS</div></div>
+              <div class="skillIcon"><img src={require("../assets/javascript.png")} alt="javascript"/><div>Javascript</div></div>
+              <div class="skillIcon"><img src={require("../assets/typescript.png")} alt="typescript"/><div>Typescript</div></div>
+              <div class="skillIcon"><img src={require("../assets/jquery.png")} alt="jquery"/><div>JQuery</div></div>
+              <div class="skillIcon"><img src={require("../assets/rest-api.png")} alt="rest-api"/><div>Rest API</div></div>
+              <div class="skillIcon"><img src={require("../assets/git.png")} alt="git"/><div>GIT</div></div>
+              <div class="skillIcon"><img src={require("../assets/github.png")} alt="github"/><div>Github</div></div>
+              <div class="skillIcon"><img src={require("../assets/react-native.png")} alt="react-native"/><div>React</div></div>
+              <div class="skillIcon"><img src={require("../assets/angularjs.png")} alt="angularjs"/><div>Angular</div></div>
+              <div class="skillIcon"><img src={require("../assets/w3c.png")} alt="w3c "/><div>W3C</div></div>
+              <div class="skillIcon"><img src={require("../assets/web-accessibility.png")} alt="web-accessibility "/><div>Web Accessibility</div></div>
+              <div class="skillIcon"><img src={require("../assets/web-design.png")} alt="web-design "/><div>Responsive Web Design </div></div>
             </div>
           </li>
           <li className="item">
