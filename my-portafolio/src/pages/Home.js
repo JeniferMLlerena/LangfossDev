@@ -24,10 +24,14 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2> Front-End</h2>
-            <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
-            </span>
+            <div class="frontend">
+              <div><img src="../assets/html-5.png" alt="html-5"/></div>
+              <div><img src="./assets/css3.png" alt="css3"/></div>
+              <div><img src="../assets/sass.png" alt="sass"/></div>
+              <div><img src="../assets/html.png" alt="html"/></div>
+              <div><img src="../assets/html.png" alt="html"/></div>
+              <div><img src="../assets/html.png" alt="html"/></div>
+            </div>
           </li>
           <li className="item">
             <h2>Back-End</h2>
