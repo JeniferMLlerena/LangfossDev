@@ -8,6 +8,7 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <div className="footer">
+      <hr></hr>
       <div className="socialMedia">
         <SlSocialInstagram size={35} /> { " " }
         <SlSocialTwitter size={35} /> { " " }

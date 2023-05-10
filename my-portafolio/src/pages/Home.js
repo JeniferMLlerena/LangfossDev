@@ -19,11 +19,9 @@ function Home() {
         <br />
       </div>
       <div className="skills">
-        <h1> Skills</h1>
-        <ol className="list">
-          <li className="item">
-            <h2> Front-End</h2>
-            <div class="frontend">
+        <div className="list">
+          <h2> Front-End</h2>
+          <div class="frontend">
               <div class="skillIcon"><img src={require("../assets/html-5.png")} alt="html-5"/><div>HTML</div></div>
               <div class="skillIcon"><img src={require("../assets/css3.png")} alt="css3"/><div>CSS3</div></div>
               <div class="skillIcon"><img src={require("../assets/sass.png")} alt="sass"/><div>SASS</div></div>
@@ -42,28 +40,34 @@ function Home() {
               <div class="skillIcon"><img src={require("../assets/performance.png")} alt="web-performance"/><div>Web Performance</div></div>
               <div class="skillIcon"><img src={require("../assets/web-accessibility.png")} alt="web-accessibility"/><div>Web Accessibility</div></div>
               <div class="skillIcon"><img src={require("../assets/web-design.png")} alt="web-design "/><div>Responsive Web Design </div></div>
-            </div>
-          </li>
-          <li className="item">
-            <h2>Back-End</h2>            
-            <div class="backend">
-              <div class="skillIcon"><img src={require("../assets/html-5.png")} alt="NodeJS"/><div>NodeJS</div></div>
-              <div class="skillIcon"><img src={require("../assets/html-5.png")} alt="MongoDB"/><div>MongoDB</div></div>
-              <div class="skillIcon"><img src={require("../assets/html-5.png")} alt="PostgreSQL"/><div>PostgreSQL</div></div>
-              <div class="skillIcon"><img src={require("../assets/css3.png")} alt="ExpressJS"/><div>ExpressJS</div></div>
-              <div class="skillIcon"><img src={require("../assets/sass.png")} alt="MySQL"/><div>MySQL</div></div>
-              <div class="skillIcon"><img src={require("../assets/jquery.png")} alt="AWS S3"/><div>AWS S3</div></div>
-            </div>
-            <span>
-              NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-              MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
-            </span>
-          </li>
-          <li className="item">
-            <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
-          </li>
-        </ol>
+          </div>
+        </div>
+        <br /><br /><br />
+        
+        <div className="list">
+          <h2>Back-End</h2>            
+          <div class="backend">
+            <div class="skillIcon"><img src={require("../assets/node-js.png")} alt="NodeJS"/><div>NodeJS</div></div>
+            <div class="skillIcon"><img src={require("../assets/mongodb.png")} alt="MongoDB"/><div>MongoDB</div></div>
+            <div class="skillIcon"><img src={require("../assets/postgresql.png")} alt="PostgreSQL"/><div>PostgreSQL</div></div>
+            <div class="skillIcon"><img src={require("../assets/mysql.png")} alt="MySQL"/><div>MySQL</div></div>
+            <div class="skillIcon"><img src={require("../assets/amazon-s3.png")} alt="AWS S3"/><div>AWS S3</div></div>
+          </div>
+        </div>
+        <br /><br /><br />
+
+        <div className="list">
+          <h2>Languages</h2>            
+          <div class="backend">
+            <div class="skillIcon"><img src={require("../assets/node-js.png")} alt="PHP"/><div>PHP</div></div>
+              <div class="skillIcon"><img src={require("../assets/javascript.png")} alt="javascript"/><div>Javascript</div></div>
+              <div class="skillIcon"><img src={require("../assets/typescript.png")} alt="typescript"/><div>Typescript</div></div>
+            <div class="skillIcon"><img src={require("../assets/mongodb.png")} alt="Java"/><div>Java</div></div>
+            <div class="skillIcon"><img src={require("../assets/postgresql.png")} alt="Python"/><div>Python</div></div>
+            <div class="skillIcon"><img src={require("../assets/amazon-s3.png")} alt="C#"/><div>C#</div></div>
+            <div class="skillIcon"><img src={require("../assets/amazon-s3.png")} alt="C++"/><div>C++</div></div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 150px;
   }
   
   .socialMedia svg {
@@ -14,14 +14,28 @@
     margin: 20px;
     font-size: 70px;
     cursor: pointer;
+    padding-top: 50px;
   }
   
   .footer p {
     color: #fff;
+  }
+
+  hr {
+    width: 70%;
+    border-top: 5px solid #eb3894;
   }
   
   @media only screen and (max-width: 600px) {
     .footer svg {
       font-size: 50px;
     }
+    
+    hr {
+      width: 85%;
+    }
+    
+   .socialMedia svg {
+    padding-top: 10px;
+   }
   }
