@@ -1,8 +1,7 @@
 import React from "react";
-import { SlSocialLinkedin } from "react-icons/sl";
-import { SlSocialGithub } from "react-icons/sl";
-import { SlEnvolope } from "react-icons/sl";
+import { SlSocialLinkedin, SlSocialGithub, SlEnvolope } from "react-icons/sl";
 import "../styles/Home.css";
+
 
 function Home() {
   return (
@@ -25,12 +24,17 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <div class="frontend">
-              <div><img src="../assets/html-5.png" alt="html-5"/></div>
-              <div><img src="./assets/css3.png" alt="css3"/></div>
-              <div><img src="../assets/sass.png" alt="sass"/></div>
-              <div><img src="../assets/html.png" alt="html"/></div>
-              <div><img src="../assets/html.png" alt="html"/></div>
-              <div><img src="../assets/html.png" alt="html"/></div>
+              <div><img src={require("../assets/html-5.png")} alt="html-5"/></div>
+              <div><img src={require("../assets/css3.png")} alt="css3"/></div>
+              <div><img src={require("../assets/sass.png")} alt="sass"/></div>
+              <div><img src={require("../assets/javascript.png")} alt="javascript"/></div>
+              <div><img src={require("../assets/typescript.png")} alt="typescript"/></div>
+              <div><img src={require("../assets/jquery.png")} alt="jquery"/></div>
+              <div><img src={require("../assets/rest-api.png")} alt="rest-api"/></div>
+              <div><img src={require("../assets/git.png")} alt="git"/></div>
+              <div><img src={require("../assets/github.png")} alt="github"/></div>
+              <div><img src={require("../assets/react-native.png")} alt="react-native"/></div>
+              <div><img src={require("../assets/angularjs.png")} alt="angularjs"/></div>
             </div>
           </li>
           <li className="item">
