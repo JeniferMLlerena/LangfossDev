@@ -59,13 +59,13 @@ function Home() {
         <div className="list">
           <h2>Languages</h2>            
           <div class="backend">
-            <div class="skillIcon"><img src={require("../assets/node-js.png")} alt="PHP"/><div>PHP</div></div>
+            <div class="skillIcon"><img src={require("../assets/php.png")} alt="PHP"/><div>PHP</div></div>
               <div class="skillIcon"><img src={require("../assets/javascript.png")} alt="javascript"/><div>Javascript</div></div>
               <div class="skillIcon"><img src={require("../assets/typescript.png")} alt="typescript"/><div>Typescript</div></div>
-            <div class="skillIcon"><img src={require("../assets/mongodb.png")} alt="Java"/><div>Java</div></div>
-            <div class="skillIcon"><img src={require("../assets/postgresql.png")} alt="Python"/><div>Python</div></div>
-            <div class="skillIcon"><img src={require("../assets/amazon-s3.png")} alt="C#"/><div>C#</div></div>
-            <div class="skillIcon"><img src={require("../assets/amazon-s3.png")} alt="C++"/><div>C++</div></div>
+            <div class="skillIcon"><img src={require("../assets/java.png")} alt="Java"/><div>Java</div></div>
+            <div class="skillIcon"><img src={require("../assets/python.png")} alt="Python"/><div>Python</div></div>
+            <div class="skillIcon"><img src={require("../assets/c-sharp.png")} alt="C#"/><div>C#</div></div>
+            <div class="skillIcon"><img src={require("../assets/c++.png")} alt="C++"/><div>C++</div></div>
           </div>
         </div>
       </div>
