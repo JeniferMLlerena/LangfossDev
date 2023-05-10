@@ -63,7 +63,7 @@
     font-size: 20px;
   }
 
-  .frontend {
+  .frontend, .backend {
     margin-top: 15px;
     flex-direction: row;
     display: flex;
