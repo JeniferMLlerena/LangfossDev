@@ -1,13 +1,23 @@
 import React from "react";
 import { SlSocialLinkedin, SlSocialGithub, SlEnvolope } from "react-icons/sl";
 import "../styles/Home.css";
-
+import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h1> Hello, World!_</h1>
+        <h1><Typewriter  
+          onInit={(typewriter)=> {
+          typewriter
+          .typeString('>>> print("Hello, World!)')
+          .pauseFor(1000)
+          .deleteAll()
+          .typeString("Hello, World!_")
+          .pauseFor(1000)
+          .start();
+          }}
+        /></h1>
         <h2> My Name is Jenifer</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
@@ -20,7 +30,7 @@ function Home() {
       </div>
       <div className="skills">
         <div className="list">
-          <h2> Front-End</h2>
+          <h3> Front-End</h3>
           <div class="frontend">
               <div class="skillIcon"><img src={require("../assets/html-5.png")} alt="html-5"/><div>HTML</div></div>
               <div class="skillIcon"><img src={require("../assets/css3.png")} alt="css3"/><div>CSS3</div></div>
@@ -45,7 +55,7 @@ function Home() {
         <br /><br /><br />
         
         <div className="list">
-          <h2>Back-End</h2>            
+          <h3>Back-End</h3>            
           <div class="backend">
             <div class="skillIcon"><img src={require("../assets/node-js.png")} alt="NodeJS"/><div>NodeJS</div></div>
             <div class="skillIcon"><img src={require("../assets/mongodb.png")} alt="MongoDB"/><div>MongoDB</div></div>
@@ -57,7 +67,7 @@ function Home() {
         <br /><br /><br />
 
         <div className="list">
-          <h2>Languages</h2>            
+          <h3>Languages</h3>            
           <div class="backend">
             <div class="skillIcon"><img src={require("../assets/php.png")} alt="PHP"/><div>PHP</div></div>
               <div class="skillIcon"><img src={require("../assets/javascript.png")} alt="javascript"/><div>Javascript</div></div>
@@ -66,6 +76,29 @@ function Home() {
             <div class="skillIcon"><img src={require("../assets/python.png")} alt="Python"/><div>Python</div></div>
             <div class="skillIcon"><img src={require("../assets/c-sharp.png")} alt="C#"/><div>C#</div></div>
             <div class="skillIcon"><img src={require("../assets/c++.png")} alt="C++"/><div>C++</div></div>
+          </div>
+        </div>
+        <br /><br /><br />
+
+        <div className="list">
+          <h3>Other Skills</h3>            
+          <div class="backend">
+            <div class="skillIcon"><img src={require("../assets/vba-excel.png")} alt="Excel VBA"/><div>Excel VBA</div></div>
+              <div class="skillIcon"><img src={require("../assets/figma.png")} alt="figma"/><div>Figma</div></div>
+            <div class="skillIcon"><img src={require("../assets/adobe.png")} alt="adobe"/><div>Adobe JS</div></div>
+              <div class="skillIcon"><img src={require("../assets/dreamweaver.png")} alt="dreamweaver"/><div>Dreamweaver</div></div>
+              <div class="skillIcon"><img src={require("../assets/adobe-illustrator.png")} alt="illustrator"/><div>Illustrator</div></div>
+              <div class="skillIcon"><img src={require("../assets/adobe-photoshop.png")} alt="photoshop"/><div>Photoshop</div></div>
+              <div class="skillIcon"><img src={require("../assets/adobe-indesign.png")} alt="inDesign"/><div>inDesign</div></div>
+            <div class="skillIcon"><img src={require("../assets/arduino.png")} alt="Arduino"/><div>Arduino</div></div>
+            <div class="skillIcon"><img src={require("../assets/heroku.png")} alt="Heroku"/><div>Heroku</div></div>
+            <div class="skillIcon"><img src={require("../assets/digitalocean.png")} alt="Digital Ocean"/><div>Digital Ocean</div></div>
+            <div class="skillIcon"><img src={require("../assets/increase.png")} alt="SEO"/><div>SEO</div></div>
+            <div class="skillIcon"><img src={require("../assets/google-business.png")} alt="Google Business"/><div>Google Business</div></div>
+            <div class="skillIcon"><img src={require("../assets/google-analytics.png")} alt="Google Analytics"/><div>Google Analytics</div></div>
+            <div class="skillIcon"><img src={require("../assets/google-analytics.png")} alt="Google Analytics"/><div>Google Analytics</div></div>
+            <div class="skillIcon"><img src={require("../assets/heroku.png")} alt="Heroku"/><div>Heroku</div></div>
+            <div class="skillIcon"><img src={require("../assets/canva.png")} alt="Canva"/><div>Canva</div></div>
           </div>
         </div>
       </div>

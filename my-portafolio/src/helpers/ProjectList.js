@@ -1,4 +1,4 @@
-import Proj1 from "../assets/HHT-Homepage.png";
+import Proj1 from "../assets/HHT-mockup.png";
 
 export const ProjectList = [
   {
