@@ -7,7 +7,27 @@ export const ProjectList = [
     skills: "JavaScript,HTML,CSS",
   },
   {
-    name: "Ecommerce Website",
+    name: "Ecommerce Websiteddddddddddddd dddddddd",
+    image: Proj1,
+    skills: "React,Node.js,MongoDB",
+  },
+  {
+    name: "Ecommerce Websiteddddddddddddd dddddddd",
+    image: Proj1,
+    skills: "React,Node.js,MongoDB",
+  },
+  {
+    name: "Ecommerce Websiteddddddddddddd dddddddd",
+    image: Proj1,
+    skills: "React,Node.js,MongoDB",
+  },
+  {
+    name: "Ecommerce Websiteddddddddddddd dddddddd",
+    image: Proj1,
+    skills: "React,Node.js,MongoDB",
+  },
+  {
+    name: "Ecommerce Websiteddddddddddddd dddddddd",
     image: Proj1,
     skills: "React,Node.js,MongoDB",
   },
