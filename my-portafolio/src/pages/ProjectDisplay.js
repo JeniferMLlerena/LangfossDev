@@ -9,10 +9,10 @@ function ProjectDisplay() {
   const project = ProjectList[id];
   return (
     <div className="project">
-      <h1> {project.name}</h1>
+      <h1> {project.name.toUpperCase()}</h1>
       <img src={project.image} alt={project.name}/>
       <p>
-        <b>Skills:</b> {project.skills}
+        <b>SKILLS:</b> {project.skills.toUpperCase()}
       </p>
       <SlSocialGithub />
     </div>

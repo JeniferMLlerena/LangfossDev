@@ -22,12 +22,12 @@ export const ProjectList = [
     skills: "JavaScript | HTML | CSS",
   },
   {
-    name: "E-commerce Scissorliftsafetytraining.com",
+    name: "E-commerce scissorliftsafetytraining.com",
     image: Proj4,
     skills: "JavaScript | HTML | CSS",
   },
   {
-    name: "E-commerce Skidsteersafetytraining.com",
+    name: "E-commerce skidsteersafetytraining.com",
     image: Proj5,
     skills: "JavaScript | HTML | CSS",
   },

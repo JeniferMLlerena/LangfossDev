@@ -7,6 +7,7 @@ function Projects() {
   return (
     <div className="projects">
       <h1>Projects</h1>
+      <br />
       <div className="projectList">
         {ProjectList.map((project, index) => {
           return (

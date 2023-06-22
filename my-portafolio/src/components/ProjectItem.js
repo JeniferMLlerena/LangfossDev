@@ -11,7 +11,7 @@ function ProjectItem({ image, name, skills, id }) {
       }}
     >
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
-      <h1> {name} </h1>      
+      <h2> {name} </h2>      
       <h4> {skills.toUpperCase()} </h4>
     </div>
   );

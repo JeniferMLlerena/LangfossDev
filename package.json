@@ -1,5 +1,18 @@
 {
+  "name": "jen-portafolio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
   "dependencies": {
-    "typewriter-effect": "^2.19.0"
+    "express": "*",
+    "ejs": "*",
+    "github-flavored-markdown": "*",
+    "less-middleware": "*"
+  },
+  "engines": {
+    "node": "0.8.8",
+    "npm": "1.1.65"
   }
 }
